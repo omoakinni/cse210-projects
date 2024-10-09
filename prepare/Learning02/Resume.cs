@@ -7,10 +7,12 @@ public class Resume
     {
 
     }
-    public void Display(){
+    public void Display()
+    {
         Console.WriteLine($"Name: {_personName}");
         Console.WriteLine("Jobs:");
-        foreach(Job jobItem in _jobs){
+        foreach(Job jobItem in _jobs)
+        {
             jobItem.Display();
         }
     }
