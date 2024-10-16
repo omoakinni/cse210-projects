@@ -33,7 +33,7 @@ public class Video
         Console.WriteLine($" {comments.Count()} comments");
         Console.WriteLine();
 
-        //Loop through all the elemets inside the list and print them out in the console.
+        //Loop through all the elemets inside the list and print them out in the console...
         foreach (var com in comments)
         {
             Console.WriteLine(com);
