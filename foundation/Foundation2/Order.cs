@@ -79,10 +79,9 @@ public class Order
         else
         {
 
-
             shippingCost = 35;
             //shipping cost will be $35
-            //Print the amount of the items in the customer's cart.
+            //Print the amount of the items in the customer's cart..
             Console.WriteLine($"You have {_products.Count()} Items in your cart");
             foreach (var product in _products)
             {

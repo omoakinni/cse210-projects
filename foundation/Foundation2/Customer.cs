@@ -4,18 +4,18 @@ public class Customer
     private string _name;
     private string _address;
 
-    //Setting the name
+    //Setting the name.
     public void setname(string name)
     {
         _name = name;
     }
 
-    //Getting the name
+    //Getting the name..
     public string getName()
     {
         return $"Customer name: {_name}";
     }
-    //Add address
+    //Add address.
     public void setAddress(string add)
     {
         _address = add;

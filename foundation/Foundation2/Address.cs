@@ -15,8 +15,7 @@ public class Address
         _province = province;
         _country = country;
     }
-
-    //Get the customer's address
+    //Get the customer's address..
     public string getAddressUSA()
     {
         string add;

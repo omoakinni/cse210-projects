@@ -14,7 +14,8 @@ class Program
         Products products2 = new Products("Pro M1 Replacement","PMR002",54,1);
         Products products3 = new Products("Microphone M2 Replacement","MR005",39,2);
         Products products4 = new Products("LED Light Stand","LS007",64,2);
-        // Order
+        
+        // Order.
         Order order1 = new Order();
         //Adding the products to the Ordered product list.
         order1._products.Add(products1);

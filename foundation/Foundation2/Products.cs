@@ -1,7 +1,7 @@
 public class Products
 {
 
-    private string _productName;
+    private string _productName; 
     private string _productId;
     private int _price;
     private int _productQty;
@@ -19,7 +19,7 @@ public class Products
     }
     public int getPrice()
     {
-        int price = _price * _productQty;
+        int price = _price * _productQty; 
         return price;
     }
 }
